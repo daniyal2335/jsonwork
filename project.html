@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./json/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <script src="./json/jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./json/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+   <title>Prject</title>
+    <style>
+        li a {
+            color: white !important;
+        }
+
+        .container-fluid {
+            height: 700PX;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background: url(images/g1.webp);
+        }
+
+        .cf1 .row h2 {
+            color: green !important;
+            font-weight: bold;
+            font-size: 50px;
+            padding-top: 100PX;
+            margin-left: 100px;
+            text-align: center;
+
+        }
+
+        .h {
+            background: url();
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .n {
+            background: url(images/a7.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .i {
+            background: url(images/d1.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+
+
+        .cf1 .row p {
+            color: black;
+            text-align: center;
+        }
+
+        .cf1 .row span {
+            color:black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">logo</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active pl-3">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a class="nav-link" href="#">Feedback</a>
+                    </li>
+                    <li class="nav-item dropdown pl-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Products</a>
+                        <div class="dropdown-menu d" aria-labelledby="dropdownId ">
+                            <a class="dropdown-item" id="nav_c_m" href="#condition_method">Codition_method</a>
+                            <a class="dropdown-item" id="nav_t_g" href="#trade_inground">Traditional Inground Gardening </a>
+                            <a class="dropdown-item" id="nav_h_g" href="#hydropnic_garden">Hydroponic Gardening </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid cf1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11">
+                    <h2><span>W</span>elcome to garden</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Eum, assumenda? Con
+                        sequatur inventorebeatae, fuga officia
+                        odit quos nam, libero corrupti incidunt
+                        tenetur cumque voluptas nostrum
+                        voluptatem, quas nisi nemo. Dolor
+                        Dicta accusamus, nam modi quod nulla
+                        soluta distinctio quisquam corporis
+                        delectus adipisci dolor.
+                        Tempore voluptate doloribus iste,
+                        illo sint ipsam fuga cupiditate
+                        minima maiores, porro natus, unde
+                        voluptates! Veniam, id.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="serachContainer">
+        <div class="container main_c p-5">
+            
+          </div>
+    </section>   
+    
+    
+    <!-- search section -->
+    
+    <div class="container">
+        <div class="row justify-content-center p-5">
+            <div class="col-md-8 ">
+                <h1 class="text-center">Search Here </h1>
+                <h2 class="text-center">Your Favorite garden techniques</h2>
+        <input type="text" class="form-control" placeholder="search here" id="inp">
+    </div>  
+    </div>
+        <div class="row" id="r">
+    
+        </div>
+    </div>
+    
+    <!-- main categories start -->
+    <section id="Categories">
+        <div class="container p-5 mt-2 ">
+            <h1 class="P-5 text-center">Our Main Categories</h1>
+            <div class="row justify-content-around p-3">
+
+                <div class="col-md-3 col-sm-12 mt-3 rounded p-5 h"> <a href="#condition_method" id="c_m">
+                    <h1 class="text-light">Condition gardening method</h1>
+                    </a>
+                 
+                </div>
+         
+
+
+                <div class="col-md-3 col-sm-12 mt-3 rounded p-5 n"><a href="#trade_inground" id="t_g">
+                        <h1 class="text-light">Traditional Inground Gardening</h1>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-12 mt-3 rounded p-5 i"><a href="#hydropnic_garden" id="h_g">
+                        <h1 class="text-light">Hydropnic garden</h1>
+                    </a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+   <!-- main categories end -->
+   
+
+    <section id="condition_method">
+        <div class="container mt-5 h-100">
+            <h1 class="text-center mt-3">Condition gardening method</h1>
+            <div class="row justify-content-around r2">
+
+            </div>
+            
+        </div>
+
+    
+
+    </section>
+    <!-- condition gardening method end -->
+    <!--Traditional Inground Gardening start -->
+
+
+    <section id="trade_inground">
+        <div class="container mt-5">
+            <h1 class="text-center mt-3">Traditional Inground Gardening</h1>
+            <div class="row justify-content-around r3">
+
+            </div>
+        </div>
+    </section>
+    <!-- Traditional Inground Gardening end -->
+    <!--Decorative Pebbles start -->
+
+
+    <section id="hydropnic_garden">
+        <div class="container mt-5">
+            <h1 class="text-center mt-3">hydropnic garden</h1>
+            <div class="row justify-content-around r4">
+
+            </div>
+        </div>
+    </section>
+    <!-- DEcorataives Pebbles end -->
+    <script>
+        let condition_method = $(".r2");
+        let trade_inground = $(".r3");
+        let hydropnic_garden = $(".r4");
+        let c_m="";
+        let t_g="";
+        let h_g="";
+        $.ajax({
+            url: "product.json",
+            method: "get",
+            success: function (data) {
+                $.each(data.condition_method, function (abc, v) {
+                    //    console.log(value.name)
+                 
+                        c_m += `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+v.image+`" alt="">
+            <div class="card-body">
+                <h2 class="card-title">`+ v.name + `<span></span>
+             
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#conditionmethod`+v.id+`">detail</button>
+                <div class="modal fade" id="conditionmethod`+v.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+
+                
+                    
+                
+            
+<div class="modal-body">
+                <div class="row" >
+                        <div class="col-md-3 justify-content-around ">
+                            <img class="img-top" src="`+v.image+`" alt="" height="150px">
+                        </div>
+                        <div class="col-md-6">
+                            <p class="p-3">
+                           `+v.description+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+v.id+`>
+                    <input type="hidden" class="p_name" value="`+v.description+`">
+                    <input type="hidden" class="p_image" value="`+v.image+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+        
+                
+         
+    
+        
+              condition_method.html(c_m);
+        })
+    
+
+//condition method end
+
+        //  Tradational inground  start
+
+
+        $.each(data.trade_inground,function (abc, v) {
+            //    console.log(value.name)
+
+
+            t_g +=`<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+v.image+`" alt="">
+            <div class="card-body">
+                <h2 class="card-title">`+ v.name + `<span></span>
+          
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#tradeinground`+v.id+`">detail</button>
+                <div class="modal fade" id="tradeinground`+v.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+
+                    
+                    
+                
+            
+<div class="modal-body">
+                <div class="row" >
+                        <div class="col-md-3 justify-content-around ">
+                            <img class="img-top" src="`+v.image+`" alt="" height="150px">
+                        </div>
+                        <div class="col-md-8">
+                            <p class="p-3">
+                           `+v.description+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+v.id+`">
+                    <input type="hidden" class="p_name" value="`+v.description+`">
+                    <input type="hidden" class="p_image" value="`+v.image+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+         
+        
+        trade_inground.html(t_g);
+        });
+        
+        
+        //   traditional inground end
+
+        $.each(data.hydropnic_garden, function (n, p) {
+            //    console.log(value.name)
+
+
+            h_g += `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+ p.image + `" alt="">
+            
+            <div class="card-body"><h2 class="card-title">`+ p.name + `<span></span>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#regsoccer`+ p.id + `">detail</button>
+                <div class="modal fade" id="regsoccer`+ p.id + `" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">`+ p.name + `</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+            <div class="modal-body">
+                <div class="row" >
+                        <div class="col-md-5 justify-content-around ">
+                            <img class="img-top" src="`+ p.image + `" alt="" height="150px">
+                        </div>
+                        <div class="col-md-5 justify-content-around">
+                           <p class="p-3">
+                           `+ p.description + `
+                            </p>
+                          
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+ p.id + `">
+                    <input type="hidden" class="p_name" value="`+ p.description + `">
+                    <input type="hidden" class="p_image" value="`+ p.image + `">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+            
+        })
+        
+    
+    
+        hydropnic_garden.html(h_g);
+        }
+        });
+    
+            //   decorative pebbbles toys end
+
+    </script>
+    <script>
+        $("#condition_method").hide();
+        $("#trade_inground").hide();
+        $("#hydropnic_garden").hide();
+
+        // this is for navbar start
+        $("#nav_c_m").click(function () {
+            $("#condition_method").show();
+            $("#trade_inground").hide();
+            $("#hydropnic_garden").hide();
+        })
+        $("#nav_t_g").click(function () {
+            $("#trade_inground").show();
+            $("#condition_method").hide();
+            $("#hydropnic_garden").hide();
+
+        })
+        $("#nav_h_g").click(function () {
+            $("#hydropnic_garden").show();
+            $("#trade_inground").hide();
+            $("#condition_method").hide();
+        })
+        //this is for navbar end
+
+        // this is for categories start
+        $("#c_m").click(function () {
+            $("#condition_method").show();
+            $("#trade_inground").hide();
+            $("#decorative_pebbles").hide();
+        })
+        $("#t_g").click(function () {
+            $("#trade_inground").show();
+            $("#condition_method").hide();
+            $("#decorative_pebbles").hide();
+
+        })
+        $("#h_g").click(function () {
+            $("#hydropnic_garden").show();
+            $("#trade_inground").hide();
+            $("#condition_method").hide();
+        })
+        //this is for categories end
+
+
+    </script>
+  
+</body>
+
+</html>

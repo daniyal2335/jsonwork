@@ -1,0 +1,91 @@
+{
+    "top10players": [  
+        {"id":10 ,"p_name":"Erling Haaland","goals":"25","Description":"An established Norwegian international, he scored 86 goals in 89 games in two-and-a-half seasons with the Black and Yellows, winning the German Cup and the Bundesliga Player of the Season award in 2020/21. Haaland's career so far has been characterised by one thing: goals.","image":"images/p10.webp"},
+        {"id":9 ,"p_name":"Karim Benzema","goals":"22","Description":"Karim Mostafa Benzema (born 19 December 1987) is a French professional footballer who plays as a striker for Spanish club Real Madrid and the France national team. He has been described as an immensely talented striker who is strong and powerful and a potent finisher from inside the box","image":"images/p9.webp"},
+        {"id":8 ,"p_name":"Kylian Mbappe","goals":"21","Description":"Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the France national team. Regarded as one of the best players in the world, he is renowned for his dribbling abilities, exceptional speed, and finishing.","image":"images/p8.jpg"},
+        {"id":7 ,"p_name":"Alexandre Lacazette","goals":"21","Description":"Alexandre Armand Lacazette (born 28 May 1991) is a French professional footballer who plays as a forward for Ligue 1 club Lyon. He plays mainly as a striker, but has also been deployed as a second striker and wide forward.","image":"images/p7.webp"},
+        {"id":6 ,"p_name":"Victor Osimhen ","goals":"21","Description":"Victor James Osimhen MFR (born 29 December 1998) is a Nigerian professional footballer who plays as a striker for Serie A club Napoli and the Nigeria national team. Considered one of the best strikers in the world, he is known for his elite finishing, pace, strength and athleticism.","image":"images/p6.jpg"},
+        {"id":5 ,"p_name":"Lautaro Martinez ","goals":"20","Description":"Lautaro Javier Martínez (born 22 August 1997) is an Argentine professional footballer who plays as a striker or second-striker for Serie A club Inter Milan, which he captains, and the Argentina national team.","image":"images/p5.webp"},
+        {"id":4 ,"p_name":"Marcus Rashford","goals":"19","Description":"Marcus Rashford MBE (born 31 October 1997) is an English professional footballer who plays as a forward for Premier League club Manchester United and the England national team. He is considered as one of the best forwards in the world.","image":"images/p4.jpg"},
+        {"id":3 ,"p_name":"Harry Kane","goals":"18","Description":"Harry Edward Kane MBE (born 28 July 1993) is an English professional footballer who plays as a striker for Premier League club Tottenham Hotspur and captains the England national team. A prolific goalscorer with strong link play, Kane is regarded as one of the best strikers in the world.[4][5] He is both Tottenham Hotspur's and England's all-time highest goalscorer, as well as being the second-highest Premier League all-time goalscorer.[6] Kane has scored over 350 goals for club and country.","image":"images/p3.jpg"},
+        {"id":2 ,"p_name":"Jonathan David","goals":"17","Description":"Jonathan Christian David (born January 14, 2000) is a professional soccer player who plays as a forward for Ligue 1 club Lille and the Canada national team.","image":"images/p2.jpg"},
+        { "id":1 ,"p_name":"Youssef En-Nesyri","goals":"16","Description":"Youssef En-Nesyri (Arabic:يوسف النصيري;[4] pronounced [ju:suf ʔan.nasˤi:ri:]; born 1 June 1997) is a Moroccan professional footballer who plays as a striker for La Liga club Sevilla and the Morocco national team. He is known for his aerial game and heading ability.","image":"images/p1.webp"}
+       
+        ],
+    "Regular_soccer" :[
+    {"id":1,"name":"Fifa World Cup","Description":"The FIFA World Cup is a professional football tournament held between national football teams, organised by FIFA. The tournament, held every four years, was first played in 1930 in Uruguay, and has been contested by 32 teams since the 1998 event.","image":"images/r1.webp"},
+    {"id":2,"name":"Premier League","Description":"The Premier League is a private company wholly owned by its 20 Member Clubs who make up the League at any one time. Each individual club is independent, working within the rules of football, as defined by the Premier League, The FA, UEFA and FIFA, as well as being subject to English and European law.","image":"images/r2.jpg"},
+    {"id":3,"name":"Laliga","Description":"La Liga is the Spain's top football league, featuring some of the biggest teams and best players in world football. Real Madrid and Barcelona regularly compete head-to-head for the title, though in recent years Atletico Madrid have emerged as a serious contender to their dominance.","image":"images/r3.webp"}
+
+    
+  
+] ,
+
+    "fustal": [
+        {"id":20,"name":"National Futsal League","Details":"lorem","image":"images/f1.png"},
+        {"id":21,"name":"Major League Futsal","Details":"lorem","image":"images/f2.jpg"},
+        {"id":22,"name":"UEFA Futsal Championships League","Details":"lorem","image":"images/f3.png"}
+    ],
+
+    "beach_soccer":[
+        {"id":20,"name":"Euro Beach Soccer League","Details":"lorem","image":"images/b1.png"},
+        {"id":21,"name":"Concacaf Beach Soccer Championship","Details":"lorem","image":"images/b2.png"},
+        {"id":22,"name":"CAF Beach Soccer African Cup","Details":"lorem","image":"images/b3.png"}
+
+
+    ],
+    "Manchester_City":[
+        {"id":1,"name":"SCOTT CARSON","position":"Goal keeper","nationality":"British","jersy_number":33,"Description":"Scott Paul Carson (born 3 September 1985) is an English professional footballer who plays as a goalkeeper for Premier League club Manchester City.","image":"images/G1.webp"},
+        {"id":2,"name":"EDERSON","position":"Goal keeper","nationality":"Brazilian","jersy_number":31,"Description":"Ederson Santana de Moraes (born 17 August 1993), known as Ederson, is a Brazilian professional footballer who plays as a goalkeeper for Premier League club Manchester City and the Brazil national team.","image":"images/G2.webp"},
+        {"id":3,"name":"STEFAN ORTEGA MORENO","position":"Goal keeper","nationality":"German","jersy_number":18,"Description":"Stefan Ortega Moreno (born 6 November 1992) is a German professional footballer who plays as a goalkeeper for Premier League club Manchester City.","image":"images/G3.WEBP"},
+        {"id":4,"name":"ZECK STEFFEN","position":"Goal keeper","nationality":"American","jersy_number":13,"Description":"Zackary Thomas Steffen (born April 2, 1995) is an American professional soccer player who plays as a goalkeeper for Premier League club Manchester City and the United States national team.","image":"images/G4.webp"},
+        {"id":5,"name":"MANUEL AKAN JI","position":"Defenders","nationality":"swidish","jersy_number":25,"Description":"Manuel Obafemi Akanji (born 19 July 1995) is a Swiss professional footballer who plays as a centre-back for Premier League club Manchester City and the Switzerland national team.","image":"images/D1.webp"},
+        {"id":6,"name":"NATHANAKE","position":"Defenders","nationality":"Dutch","jersy_number":6,"Description":"Nathan Benjamin Aké (born 18 February 1995) is a Dutch professional footballer who plays as a centre-back or left-back for Premier League club Manchester City and the Netherlands national team.","image":"images/D2.webp"},
+        {"id":7,"name":"JOAO CANCELO","position":"Defenders","nationality":"Portugese","jersy_number":7,"Description":"João Pedro Cavaco Cancelo (born 27 May 1994) is a Portuguese professional footballer who plays as a full-back or wing-back for Premier League club Manchester City and the Portugal national team. He is regarded as one of the best full-backs in the world.","image":"images/D3.webp"},
+        {"id":8,"name":"RUBEN DIAS","position":"Defenders","nationality":"Portugese","jersy_number":3,"Description":"Rúben dos Santos Gato Alves Dias (born 14 May 1997) is a Portuguese professional footballer who plays as a centre-back for Premier League club Manchester City and the Portugal national team. Considered one of the best defenders in the world, he is known for his defensive prowess, leadership, and aerial ability.","image":"images/D4.webp"},
+        {"id":13,"name":"KEVIN DE BRUYNE","position":"Midfielders","nationality":"Belgian","jersy_number":17,"Description":"Kevin De Bruyne (born 28 June 1991) is a Belgian professional footballer who plays as a midfielder for and captains both Premier League club Manchester City and the Belgium national team. He is widely regarded as one of the greatest players of his generation as well as one of the best midfielders in the world. Pundits often describe him as a complete footballer.","image":"images/M1.webp"},
+        {"id":14,"name":"PHIL FODEN","position":"Midfielders","nationality":"British","jersy_number":47,"Description":"Philip Walter Foden (born 28 May 2000) is an English professional footballer who plays as a midfielder for Premier League club Manchester City and the England national team.","image":"images/M2.webp"},
+        {"id":15,"name":"JACK GREALISH","position":"Midfielders","nationality":"British","jersy_number":10,"Description":"Jack Peter Grealish ( born 10 September 1995) is an English professional footballer who plays as a winger or attacking midfielder for Premier League club Manchester City and the England national team. Regarded as one of the best wingers in the world","image":"images/M3.webp"},
+        {"id":16,"name":"MATEO KOVACIC","position":"Midfielders","nationality":"Crotian","jersy_number":8,"Description":"Mateo Kovačić (born 6 May 1994) is a Croatian professional footballer who plays as a central midfielder for Premier League club Manchester City and the Croatia national team.","image":"images/M4.webp"},
+        {"id":17,"name":"JULIAN ALVAREZ","position":"Forwards","nationality":"Argentine","jersy_number":19,"Description":"Julián Álvarez (born 31 January 2000) is an Argentine professional footballer who plays as a forward for Premier League club Manchester City and the Argentina national team. He is known for his aggressive pressing, dynamic scoring ability, and link-up play. He is considered as one of the best young talents in football.","image":"images/F1.webp"},
+        {"id":18,"name":"ERLING HAALAND","position":"Forwards","nationality":"Norwegian","jersy_number":9,"Description":"Erling Braut Haaland (born 21 July 2000) is a Norwegian professional footballer who plays as a striker for Premier League club Manchester City and the .","image":"images/F2.webp"},
+        {"id":19,"name":"PEP GUARDIOLA","position":"Managers","image":"images/MG.webp"}
+    ],
+    
+    "Manchester_United":[
+        {"id":1,"name":"TOM HEATON","position":"Goal keeper","nationality":"British","jersy number":22,"image":"images/t1.png"},
+        {"id":2,"name":"ANDRE ONANA","position":"Goal keeper","nationality":"Brazilian","jersy number":24,"image":"images/as1.webp"},
+        {"id":3,"name":"DEAN HENDERSON","position":"Goal keeper","nationality":"German","jersy number":26,"image":"images/ds1.jpg"},
+        {"id":4,"name":"VICTOR LINDELOF","position":"Defenders","nationality":"American","jersy number":2,"image":"images/vl.webp"},
+        {"id":5,"name":"ERIC BAILLY","position":"Defenders","nationality":"swidish","jersy number":3,"image":"images/ep1.png"},
+        {"id":6,"name":"HARRY MAGUIRE","position":"Defenders","nationality":"Dutch","jersy number":5,"image":"images/hm1.jpg"},
+        {"id":7,"name":"DIOGO DALOT","position":"Defenders","nationality":"Portugese","jersy number":6,"image":"images/DD1.jpg"},
+        {"id":8,"name":"MASON MOUNT","position":"Midfielders","nationality":"Portugese","jersy number":7,"image":"images/D4.webp"},
+        {"id":13,"name":"BRUNO FERNANDES","position":"Midfielders","nationality":"Belgian","jersy number":8,"image":"images/sb1.jpg"},
+        {"id":14,"name":"CHRISTIAN ERIKSEN","position":"Midfielders","nationality":"mid","jersy number":14,"image":"images/CE1.jpg"},
+        {"id":15,"name":"CASEMIRO","position":"Midfielders","nationality":"British","jersy number":16,"image":"images/CA1.jpg"},
+        {"id":16,"name":"ANTHONY MARTIAL","position":"Forwards","nationality":"Crotian","jersy number":9,"image":"images/MU1.jpeg"},
+        {"id":17,"name":"MARCUS RASHFORD","position":"Forwards","nationality":"Argentine","jersy number":10,"image":"images/MR1.jpg"},
+        {"id":18,"name":"MASON GREENWOOD","position":"Forwards","nationality":"Norwegian","jersy number":11,"image":"images/MG1.jpg"},
+        {"id":19,"name":"ANTONY","position":"Forwards","jersy number":21,"image":"images/AN1.JPG"}
+    ],
+     
+    "Arsenal":[
+        {"id":1,"name":"Ramsdale","position":"Goal keeper","nationality":"British","jersy number":22,"image":"images/r11.webp"},
+        {"id":2,"name":"Runarsson","position":"Goal keeper","nationality":"Brazilian","jersy number":24,"image":"images/r9.webp"},
+        {"id":3,"name":"Hein","position":"Goal keeper","nationality":"German","jersy number":26,"image":"images/H10.webp"},
+        {"id":4,"name":"Okonkwo ","position":"Defenders","nationality":"American","jersy number":2,"image":"images/o5.jpg"},
+        {"id":5,"name":"Saliba ","position":"Defenders","nationality":"swidish","jersy number":3,"image":"images/A1.webp"},
+        {"id":6,"name":"Tierney","position":"Defenders","nationality":"Dutch","jersy number":5,"image":"images/t1.webp"},
+        {"id":7,"name":"White","position":"Defenders","nationality":"Portugese","jersy number":6,"image":"images/w1.webp"},
+        {"id":8,"name":"Gabriel","position":"Midfielders","nationality":"Portugese","jersy number":7,"image":"images/g8.webp"},
+        {"id":13,"name":"Thomas","position":"Midfielders","nationality":"Belgian","jersy number":8,"image":"images/t8.webp"},
+        {"id":14,"name":"Odegaard","position":"Midfielders","nationality":"mid","jersy number":14,"image":"images/o1.webp"},
+        {"id":15,"name":"Smith Rowe","position":"Midfielders","nationality":"British","jersy number":16,"image":"images/s7.webp"},
+        {"id":16,"name":"Jorginho","position":"Forwards","nationality":"Crotian","jersy number":9,"image":"images/s9.webp"},
+        {"id":17,"name":"saka","position":"Forwards","nationality":"Argentine","jersy number":10,"image":"images/j1.webp"},
+        {"id":18,"name":"jesus","position":"Forwards","nationality":"Norwegian","jersy number":11,"image":"images/m10.webp"},
+        {"id":19,"name":"Pepe","position":"Forwards","jersy number":21,"image":"images/n7.webp"}
+    ]
+       
+}

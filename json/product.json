@@ -1,0 +1,14 @@
+{
+    "condition_method":[
+        {"id":1,"name":"Condition Gardening Method","description":"Container gardening can work no matter where you are located.It consistsof growing crops in different containers.This can be planters or as simple as buckets. Container gardening works great for growing tomatoes, peppers, root vegetables, green beans, and lettuce.","image":"images/c1.jpg"}
+     
+    ],
+    "trade_inground":[
+        {"id":2,"name":"Traditional inground Gardening","description":"When you hear the term gardening, you may envision a small plot of ground that has been tilled, planted, and cared for to produce vegetables and fruits","image":"images/t1.jpg"}
+     
+    ],
+    "hydropnic_garden":[
+        {"id":3,"name":"hydropnic garden","description":"When you hear the term gardening, you may envision a small plot of ground that has been tilled, planted, and cared for to produce vegetables and fruits","image":"images/h1.jpg"}
+     
+    ]
+}

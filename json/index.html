@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <script src="jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  
+    <title>JSON</title>
+    <style>
+        *{
+            padding: 0px;
+        }
+        a{
+        text-decoration: none;
+        }
+        
+        #serachContainer{
+            background: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+        .n{
+            background: url(images/bg2.webp);
+             background-position: center; 
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+        }
+        .h{
+            background: url(images/bg1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+        }
+        .i{
+            background: url(images/bg3.webp);
+            background-position: center;
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+        }
+        .btn{
+            background-image: linear-gradient(to right, #42275a 0%, #734b6d  51%, #42275a  100%);
+        }
+        /* header {
+            background: url(images/bg.avif);
+          
+        }
+      header nav ul{
+        padding: 10px;
+      } */
+        .main_c{
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+<!-- header start -->
+
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light sticky-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item ml-4">
+                <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item ml-4">
+                <a class="nav-link" href="#about">About</a> 
+            </li>
+            <li class="nav-item ml-4">
+                <a class="nav-link" id="t_p_sec" href="#top10_soccer_Section" >top 10 Scorer</a> 
+            </li>
+            <li class="nav-item ml-4">
+                <a class="nav-link" id="g_s_sec" href="#game_schedule" >Weekly Games Schedule</a> 
+            </li>
+            <li class="nav-item dropdown ml-4">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Soccer Main Catogery</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" id="nav_r_s_sec" href="#regular_soccer">Regualr soccer</a>
+                    <a class="dropdown-item" id="nav_f_sec" href="#futsal_section">Futsal </a>
+                    <a class="dropdown-item" id="nav_b_s_sec" href="#beach_soccer">Beach Soccer </a>
+                
+                </div>
+            </li>
+            <li class="nav-item ml-4">
+                <a class="nav-link" href="#contact">contact </a>
+            </li>
+        </ul>
+     
+    </div>
+</div>
+</nav>
+
+<!-- header end -->
+
+<section id="serachContainer">
+    <div class="container main_c p-5">
+        
+      </div>
+</section>   
+
+
+<!-- search section -->
+
+<div class="container">
+    <div class="row justify-content-center p-5">
+        <div class="col-md-8 ">
+            <h1 class="text-center">Search Here </h1>
+            <h2 class="text-center">Your Favorite Soccer PLayer</h2>
+    <input type="text" class="form-control" placeholder="search here" id="inp">
+</div>  
+</div>
+    <div class="row" id="r">
+
+    </div>
+</div>
+
+    <!-- main Categories -->
+    <section id="Categories">
+        <div class="container p-5 mt-2 ">
+            <h1 class="P-5 text-center">Our Main Categories</h1>
+        <div class="row justify-content-around p-3">
+           
+            <div class="col-md-3 col-sm-12 mt-3 rounded p-5 h"> <a href="#regular_soccer" id="r_s_sec"><h1 class="text-light" >Regular Soccer</h1></a></div>
+          
+           
+            <div class="col-md-3 col-sm-12 mt-3 rounded p-5 n"><a href="#futsal_section"  id="f_sec"><h1 class="text-light">Futsal</h1></a>
+            </div>
+        
+       
+            <div class="col-md-3 col-sm-12 mt-3 rounded p-5 i">
+                <a href="#beach_soccer"  id="b_s_sec">
+                <h1 class="text-light">Beach soccer</h1>
+            </a>
+            </div>
+        </div>
+   
+    </div>
+    </section>
+
+    <!-- Top 3 Clubs -->
+    <section id="Categories">
+      <div class="container p-5 mt-2 ">
+          <h1 class="P-5 text-center">Top 3 Clubs</h1>
+      <div class="row justify-content-around p-3">
+         
+          <div class="col-md-3 col-sm-12 mt-3 rounded p-5 h"> <a href="#manchester_city" id="m_c_sec"><h1 class="text-light" >Manchester City</h1></a></div>
+        
+         
+          <div class="col-md-3 col-sm-12 mt-3 rounded p-5 n"><a href="#manchester_united"  id="m_u_sec"><h1 class="text-light">Manchester United</h1></a>
+          </div>
+      
+     
+          <div class="col-md-3 col-sm-12 mt-3 rounded p-5 i">
+              <a href="#arsenal_section"  id="a_sec">
+              <h1 class="text-light">Arsenal</h1>
+          </a>
+          </div>
+      </div>
+ 
+  </div>
+  </section>
+
+
+   <!-- Top 10 scorer start -->
+    <section id="top10_soccer_Section">
+    <div class="container mt-5">
+        <h1 class="text-center mt-3">Top 10 scorers</h1>
+    <div class="row r1">
+
+    </div>
+</div>
+     </section>
+  <!-- top 10 scorer end -->
+<!-- regular soccer start -->
+
+<section id="regular_soccer">
+    <div class="container mt-5">
+        <h1 class="text-center mt-3">Regular Soccer</h1>
+        <div class="row justify-content-around r2">
+
+        </div>
+    </div>
+   
+
+
+</section>
+ <!-- regular soccer end -->
+
+<!-- fustal start -->
+
+
+<section id="futsal_section">
+    <div class="container mt-5">
+        <h1 class="text-center mt-3">Futsal</h1>
+        <div class="row justify-content-around r3">
+
+        </div>
+    </div>
+</section>
+ <!-- futsal end -->
+
+<!-- beach soccer start -->
+
+ 
+<section id="beach_soccer">
+    <div class="container mt-5">
+        <h1 class="text-center mt-3">Beach Soccer</h1>
+        <div class="row justify-content-around r4">
+
+        </div>
+    </div>
+</section>
+<!-- beach soccer end -->
+<!-- manchester city start -->
+
+<section id="manchester_city">
+  <div class="container mt-5">
+      <h1 class="text-center mt-3">Manchester City</h1>
+      <div class="row justify-content-around r5">
+
+      </div>
+  </div>
+ 
+
+
+</section>
+<!-- manchester city end -->
+<!-- manchester united start -->
+
+<section id="manchester_united">
+  <div class="container mt-5">
+      <h1 class="text-center mt-3">Manchester United</h1>
+      <div class="row justify-content-around r6">
+
+      </div>
+  </div>
+ 
+
+
+</section>
+<!-- manchester united end -->
+<!-- Arsenal start -->
+
+<section id="arsenal_section">
+  <div class="container mt-5">
+      <h1 class="text-center mt-3">Arsenal</h1>
+      <div class="row justify-content-around r7">
+
+      </div>
+  </div>
+ 
+
+
+</section>
+<!-- Arsenal end -->
+
+
+<!-- games schedule -->
+<section id="game_schedule">
+
+<div class="container">
+<header class="cd-main-header text-center flex flex-column flex-center">
+  
+    <h1 class="text-xl text-center p-3  ">Weekly Games Schedule</h1>
+  </header>
+
+  <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
+    <div class="cd-schedule__timeline">
+      <ul>
+        <li><span>09:00</span></li>
+        <li><span>09:30</span></li>
+        <li><span>10:00</span></li>
+        <li><span>10:30</span></li>
+        <li><span>11:00</span></li>
+        <li><span>11:30</span></li>
+        <li><span>12:00</span></li>
+        <li><span>12:30</span></li>
+        <li><span>13:00</span></li>
+        <li><span>13:30</span></li>
+        <li><span>14:00</span></li>
+        <li><span>14:30</span></li>
+        <li><span>15:00</span></li>
+        <li><span>15:30</span></li>
+        <li><span>16:00</span></li>
+        <li><span>16:30</span></li>
+        <li><span>17:00</span></li>
+        <li><span>17:30</span></li>
+        <li><span>18:00</span></li>
+      </ul>
+    </div> <!-- .cd-schedule__timeline -->
+  
+    <div class="cd-schedule__events">
+      <ul>
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Monday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:30" data-end="12:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Argentina Vs Portugal</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="14:00" data-end="16:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">France Vs England</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="12:00" data-end="14:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Qatar Vs Japan</em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:00" data-end="17:30"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">Germany Vs Portugal</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="09:00" data-end="11:30" data-content="event-restorative-yoga" data-event="event-4" href="#0">
+                <em class="cd-schedule__name">South Korea Vs USA  </em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Thursday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="12:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Argentina Vs France</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+  
+        <li class="cd-schedule__group">
+          <div class="cd-schedule__top-info"><span>Friday</span></div>
+  
+          <ul>
+            <li class="cd-schedule__event">
+              <a data-start="10:00" data-end="12:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
+                <em class="cd-schedule__name">Qatar vs Saudia Arabia </em>
+              </a>
+            </li>
+  
+            <li class="cd-schedule__event">
+              <a data-start="15:00" data-end="17:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
+                <em class="cd-schedule__name">Germany Vs Croatia</em>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+    <div class="cd-schedule-modal">
+      <header class="cd-schedule-modal__header">
+        <div class="cd-schedule-modal__content">
+          <span class="cd-schedule-modal__date"></span>
+          <h3 class="cd-schedule-modal__name"></h3>
+        </div>
+  
+        <div class="cd-schedule-modal__header-bg"></div>
+      </header>
+  
+      <div class="cd-schedule-modal__body">
+        <div class="cd-schedule-modal__event-info"></div>
+        <div class="cd-schedule-modal__body-bg"></div>
+      </div>
+  
+      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+    </div>
+  
+    <div class="cd-schedule__cover-layer"></div>
+  </div> 
+</div>
+</section>
+
+  <!-- .cd-schedule -->
+
+     <script>
+        let top10ssec = $(".r1")
+        let regularSoccer = $(".r2");
+        let futsal = $(".r3");
+        let beachsoccer = $(".r4");
+        let mancity = $(".r5");
+        let manunited = $(".r6");
+        let arsenal = $(".r7");
+        let r_f = "";
+        let r_c = "";
+        let r_b = "";
+        let t_p = "";
+        let r_mc = "";
+        let r_mu = "";
+        let r_a = "";
+        $.ajax({
+            url : "index.json",
+            method : "get",
+            success :function(data){
+                  // top10 scorer srart
+              $.each(data.top10players,function(abc,value){
+            //    console.log(value.name)
+              
+                
+          t_p += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h3 class="card-title">`+value.p_name+` </h3><span class="card-text">goals <br> `+value.goals+`<span></span>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#modelId`+value.id+`">detail</button>
+                <div class="modal fade" id="modelId`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">`+value.name+`</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" >
+                        <div class="col-md-4  ">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-4  ">
+                           <p class="p-3">
+                           `+value.p_name+`
+                            </p>
+                          
+                            <p class="p-3">
+                           `+value.goals+`
+                            </p>    
+                            <p class="p-3">
+                           `+value.Description+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.p_name+`">
+                    <input type="hidden" class="p_image" value="`+value.goals+`">
+                    <input type="hidden" class="p_age" value="`+value.image+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button  class="btn btn-primary addtop10">add to favorite player</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              top10ssec.html(t_p);
+            //   top10 scorer end
+                // regular soccer srart
+              $.each(data.Regular_soccer,function(abc,value){
+            //    console.log(value.name)
+              
+                
+          r_c += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h2 class="card-title">`+value.name+`<span></span>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#regsoccer`+value.id+`">detail</button>
+                <div class="modal fade" id="regsoccer`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">`+value.name+`</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+            </div>
+            <div class="modal-body">
+                <div class="row" >
+                        <div class="col-md-4 justify-content-around ">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-6">
+                           <p class="p-3">
+                           `+value.name+`
+                            </p>
+                          
+                            <p class="p-3">
+                           `+value.Description+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.name+`">
+                    <input type="hidden" class="p_image" value="`+value.image+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              regularSoccer.html(r_c);
+            //   regular soccer end
+
+
+            //   futsal start
+
+
+            $.each(data.fustal,function(abc,value){
+            //    console.log(value.name)
+              
+                
+          r_f += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h2 class="card-title">`+value.name+` </h2><span class="card-text">`+value.Description+`<span></span>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#modelId`+value.id+`">detail</button>
+                <div class="modal fade" id="modelId`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">`+value.name+`</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" >
+                        <div class="col-md-6">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-6">
+                           <p class="p-3">
+                           `+value.name+`
+                            </p>
+                          
+                            <p class="p-3">
+                           `+value.age+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.name+`">
+                    <input type="hidden" class="p_image" value="`+value.image+`">
+                    <input type="hidden" class="p_age" value="`+value.age+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              futsal.html(r_f);
+            //   futsal end
+
+
+
+          
+
+
+            //   regular soccer start
+
+          
+
+              $.each(data.beach_soccer,function(abc,value){
+            //    console.log(value.name)
+
+              r_b += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h2 class="card-title">`+value.name+` </h2>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#modelId`+value.id+`">detail</button>
+                <div class="modal fade" id="modelId`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">`+value.name+`</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" >
+                        <div class="col-md-4">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-6">
+                           <p class="p-3">
+                           `+value.name+`
+                            </p>
+                          
+                            <p class="p-3">
+                           `+value.age+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.name+`">
+                    <input type="hidden" class="p_image" value="`+value.image+`">
+                    <input type="hidden" class="p_age" value="`+value.age+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              beachsoccer.html(r_b);
+
+
+            //   beach soccer
+
+              //   man city start
+
+
+              $.each(data.Manchester_City,function(abc,value){
+            //    console.log(value.name)
+              
+                
+          r_mc += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h4 class="card-title">`+value.name+` </h4>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#man_ci`+value.id+`">detail</button>
+                <div class="modal fade" id="man_ci`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">`+value.name+`</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" >
+                        <div class="col-md-6">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-6">
+                           <p class="p-3">
+                           `+value.name+`
+                            </p>
+                          
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.name+`">
+                    <input type="hidden" class="p_image" value="`+value.image+`">
+                    <input type="hidden" class="p_pos" value="`+value.position+`">
+                    <input type="hidden" class="p_j_num" value="`+value.jersy_number+`">
+                    <input type="hidden" class="p_nat" value="`+value.nationality+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button  class="btn btn-primary addto">add to favorite player</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              mancity.html(r_mc);
+                //   localStorage FOR man city top 10 scorers
+                let myJsonCartData = JSON.parse(localStorage.getItem('myFinalJsonCartDataLocal')) || [];
+              $(".addto").click(function(){
+                let product_id =$(this).siblings('.p_id').val();
+          let product_name =$(this).siblings('.p_name').val();
+          let product_image =$(this).siblings('.p_image').val();
+          let product_pos =$(this).siblings('.p_pos').val();
+          let product_j_num =$(this).siblings('.p_j_num').val();
+          let product_nat =$(this).siblings('.p_nat').val();
+
+          
+          myJsonCartData.push({'product_id':product_id,'product_name':product_name,'product_image':product_image,'product_position':product_pos,'product_jersy_n':product_j_num,'product_nata':product_nat});
+               let myFinalJsonCartData = localStorage.setItem('myFinalJsonCartDataLocal',JSON.stringify(myJsonCartData));
+                 alert(' player is in your favorite list ');
+       
+           
+        })
+        let top10ply = JSON.parse(localStorage.getItem('myFinalJsonCartDataLocal')) || [];
+              $(".addtop10").click(function(){
+                let product_id =$(this).siblings('.p_id').val();
+          let product_name =$(this).siblings('.p_name').val();
+          let product_image =$(this).siblings('.p_image').val();
+          let product_pos =$(this).siblings('.p_pos').val();
+          let product_j_num =$(this).siblings('.p_j_num').val();
+          let product_nat =$(this).siblings('.p_nat').val();
+
+          
+          top10ply.push({'product_id':product_id,'product_name':product_name,'product_image':product_image,'product_position':product_pos,'product_jersy_n':product_j_num,'product_nata':product_nat});
+               let myFinalJsonCartData = localStorage.setItem('myFinalJsonCartDataLocal',JSON.stringify(top10ply));
+                 alert(' player is in your favorite list ');
+       
+           
+        })
+
+        let manunited = JSON.parse(localStorage.getItem('myFinalJsonCartDataLocal')) || [];
+              $(".addtop10").click(function(){
+                let product_id =$(this).siblings('.p_id').val();
+          let product_name =$(this).siblings('.p_name').val();
+          let product_image =$(this).siblings('.p_image').val();
+          let product_pos =$(this).siblings('.p_pos').val();
+          let product_j_num =$(this).siblings('.p_j_num').val();
+          let product_nat =$(this).siblings('.p_nat').val();
+
+          
+          top10ply.push({'product_id':product_id,'product_name':product_name,'product_image':product_image,'product_position':product_pos,'product_jersy_n':product_j_num,'product_nata':product_nat});
+               let myFinalJsonCartData = localStorage.setItem('myFinalJsonCartDataLocal',JSON.stringify(top10ply));
+                 alert(' player is in your favorite list ');
+       
+           
+        })
+            //  mancity  end
+
+             //   man united start
+
+
+             $.each(data.Manchester_United,function(abc,value){
+            //    console.log(value.name)
+              
+                
+          r_mu += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h5 class="card-title">`+value.name+` </h5>
+              
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#man_u`+value.id+`">detail</button>
+                <div class="modal fade" id="man_u`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">`+value.name+`</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" >
+                        <div class="col-md-6">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-6">
+                           <p class="p-3">
+                           `+value.name+`
+                            </p>
+                          
+                            <p class="p-3">
+                           `+value.age+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.name+`">
+                    <input type="hidden" class="p_image" value="`+value.image+`">
+                    <input type="hidden" class="p_age" value="`+value.age+`">
+                    <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                    <button  class="btn btn-primary man_u">add to favorite player</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              manunited.html(r_mu);
+            //  man united  end
+
+ //   arsenal start
+
+
+ $.each(data.Arsenal,function(abc,value){
+            //    console.log(value.name)
+              
+                
+          r_a += ( `<div class="col-md-4 mt-4">
+          <div class="card p-3">
+        <img class="img-top" src="`+value.image+`" alt="">
+            
+            <div class="card-body"><h3 class="card-title">`+value.name+` </h3><span class="card-text">`+value.Description+`<span></span>
+                <p></p>
+                </div>
+                <button class="btn btn-info" data-toggle="modal" data-target="#arsenal`+value.id+`">detail</button>
+                <div class="modal fade" id="arsenal`+value.id+`" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">`+value.name+`</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" >
+                        <div class="col-md-6">
+                            <img class="img-top" src="`+value.image+`" alt="">
+                        </div>
+                        <div class="col-md-6">
+                           <p class="p-3">
+                           `+value.name+`
+                            </p>
+                          
+                            <p class="p-3">
+                           `+value.age+`
+                            </p>    
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="hidden" class="p_id" value="`+value.id+`">
+                    <input type="hidden" class="p_name" value="`+value.name+`">
+                    <input type="hidden" class="p_image" value="`+value.image+`">
+                    <input type="hidden" class="p_age" value="`+value.age+`">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button  class="btn btn-primary addto">add to favorite player</button>
+                </div>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>`
+    
+    
+              ) 
+    
+              })
+              arsenal.html(r_a);
+            //  arsenal  end
+
+
+         
+
+            //   
+             let myJsonCartDataLed = JSON.parse(localStorage.getItem('myFinalJsonCartDataLocal')) || [];
+              $(".addtoled").click(function(){
+                let product_id =$(this).siblings('.p_id').val();
+          let product_name =$(this).siblings('.p_name').val();
+          let product_image =$(this).siblings('.p_image').val();
+          let product_age =$(this).siblings('.p_age').val();
+          
+          myJsonCartDataLed.push({'product_id':product_id,'product_name':product_name,'product_image':product_image,'product_age':product_age});
+               let myFinalJsonCartData = localStorage.setItem('myFinalJsonCartDataLocal',JSON.stringify(myJsonCartDataLed));
+                 alert('product  added successfully');
+       
+           
+        })
+
+
+
+
+
+            }
+
+// FUNCTION END
+
+        })
+        // ajax end
+
+
+//    searching work
+
+
+$("#inp").keyup(function(){
+  let us = $("#inp").val();
+  let players_search = "";
+
+  let k = $("#r");
+  $.ajax({
+      url : "players.json",
+      method : "get",
+      success : function(data){
+   $.each(data,function(keyy,valu){
+      // console.log("hello"+valu.name)
+      if(valu.p_name==us){
+          console.log("done");
+          players_search += (`<div ' class='col-md-2 mt-5'><div class='card mt-3'>
+              <img class='card-img-top' src=` +valu.image+ `   alt=''>
+              <div class='card-body'><h4 class='card-title'>`+valu.p_name+`</h4>
+                <p>`+valu.goals+`</p>
+                </div></div></div>`)
+      }
+  
+
+   })
+   k.html(players_search);
+  
+      }
+    })
+      // ajax braxket
+  })
+
+
+    </script> 
+ 
+    <!-- hide and Show -->
+    <script>
+        $("#top10_soccer_Section").hide();
+        $("#regular_soccer").hide();
+        $("#futsal_section").hide();
+        $("#beach_soccer").hide();
+        $("#game_schedule").hide();
+        $('#manchester_city').hide();
+        
+
+        // this is for categories
+        $("#t_p_sec").click(function(){
+            $("#top10_soccer_Section").show();
+            $("#regular_soccer").hide();
+            $("#futsal_section").hide();
+            $("#beach_soccer").hide();
+            $("#game_schedule").hide();
+        })
+
+        $("#r_s_sec").click(function(){
+            $("#regular_soccer").show();
+            $("#futsal_section").hide();
+            $("#top10_soccer_Section").hide();
+            $("#beach_soccer").hide();
+            $("#game_schedule").hide();
+        })
+        $("#f_sec").click(function(){
+            $("#futsal_section").show();
+            $("#regular_soccer").hide();
+            $("#top10_soccer_Section").hide();
+            $("#beach_soccer").hide();
+            $("#game_schedule").hide();
+        })
+        $("#b_s_sec").click(function(){
+            $("#beach_soccer").show();
+            $("#regular_soccer").hide();
+            $("#top10_soccer_Section").hide();
+            $("#futsal_section").hide();
+            $("#game_schedule").hide();
+        })
+        $("#g_s_sec").click(function(){
+            $("#game_schedule").show();
+            $("#regular_soccer").hide();
+            $("#top10_soccer_Section").hide();
+            $("#futsal_section").hide();
+            $("#beach_soccer").hide();
+        })
+        // categories end
+
+// 
+$('#m_c_sec').click(function(){
+  $('#manchester_city').show();
+})
+
+        // this is for navbar dropdown 
+
+
+        $("#nav_r_s_sec").click(function(){
+            $("#regular_soccer").show();
+            $("#top10_soccer_Section").hide();
+            $("#futsal_section").hide();
+            $("#beach_soccer").hide();
+        })
+
+        $("#nav_f_sec").click(function(){
+            $("#futsal_section").show();
+            $("#top10_soccer_Section").hide();
+            $("#regular_soccer").hide();
+            $("#beach_soccer").hide();
+        })
+        $("#nav_b_s_sec").click(function(){
+            $("#beach_soccer").show();
+            $("#top10_soccer_Section").hide();
+            $("#regular_soccer").hide();
+            $("#futsal_section").hide();
+        })
+
+        // end of navbar
+    </script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
